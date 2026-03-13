@@ -1,23 +1,39 @@
 <div align="center">
 
-#  LLM RAM Calculator
-**Estimate VRAM requirements for any model in miliseconds**
+# LLM RAM Calculator
+**Estimate RAM and VRAM requirements for LLMs in milliseconds**
+
+A simple Python tool for checking how much memory a model may need based on parameter size, quantization type, bit width, and context window.
 
 </div>
 
 ---
 
+## Features
+- No external dependencies
+- Simple GUI
+- Supports parameter size selection
+- Supports quantization types: `Q`, `FP`, `INT`, `MXFP`
+- Supports bit widths: `1, 2, 3, 4, 5, 6, 7, 8, 16, 32`
+- Includes context window estimation
+- Fast local calculation
+
 ## How to Use
-Run the following in your PowerShell or Terminal:
-`
+Run this in PowerShell or your terminal:
+
+```bash
 git clone https://github.com/wafflebyte8-hue/LLM-ram-calculator.git
-` 
-And then:
-`python llm_calculator.py`
-## Dependencies:
-None :)
+cd LLM-ram-calculator
+python llm_calculator.py
+```
+
+## Dependencies
+None.
+
+This project uses only Python standard library modules.
 
 ## License
-Owned by: **wafflebyte8-hue**
-Created by: **wafflebyte8-hue**
-Hosted by: **Github.com**
+Owned by: **wafflebyte8-hue**  
+Created by: **wafflebyte8-hue**  
+Hosted on: **GitHub**
+```
