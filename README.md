@@ -10,7 +10,7 @@
 ## How to Use
 Run the following in your PowerShell or Terminal:
 `
-git clone
+git clone https://github.com/wafflebyte8-hue/LLM-ram-calculator.git
 ` 
 And then:
 `python llm_calculator.py`
